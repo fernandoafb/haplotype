@@ -2,7 +2,7 @@
 
 This tool is an implementation of the [haplotype inference](https://en.wikipedia.org/wiki/Haplotype_estimation) method described in the article below.
 
-[http://link.springer.com/chapter/10.1007%2F11814948_16](SAT in Bioinformatics: Making the Case with Haplotype Inference by Inês Lynce, João Marques-silva)
+[SAT in Bioinformatics: Making the Case with Haplotype Inference by Inês Lynce, João Marques-silva](http://link.springer.com/chapter/10.1007%2F11814948_16)
 
 It consists in translating the haplotypes into a [SAT](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) CNF instance and then feeding it to a SAT solver. After it returns a set of valid values, these are translated back into the parent haplotypes.
 
